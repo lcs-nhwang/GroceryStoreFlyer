@@ -20,6 +20,7 @@ struct FoodItem: Identifiable {
     let id = UUID()
     let name: String
     let image: String
+    let price: String
 }
 
 let thisWeeksFlyer = Flyer(
@@ -31,11 +32,13 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Sirloin Tip Oven Roasts",
-                    image: "sirloin-tips"
+                    image: "sirloin-tips",
+                    price: "24.99"
                 ),
                 FoodItem(
                     name: "Porkloin Back Ribs",
-                    image: "porkloin-back-ribs"
+                    image: "porkloin-back-ribs",
+                    price: "23.67"
                 ),
             ]
         ),
@@ -45,15 +48,18 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Wild Pacific Halibut Fillets",
-                    image: "wild-pacific-halibut-fillets"
+                    image: "wild-pacific-halibut-fillets",
+                    price: "19.65"
                 ),
                 FoodItem(
                     name: "Wild Sockeye Salmon Fillets",
-                    image: "wild-sockeye-salmon-fillets"
+                    image: "wild-sockeye-salmon-fillets",
+                    price: "18.57"
                 ),
                 FoodItem(
                     name: "Clam Chowder",
-                    image: "clam-chowder"
+                    image: "clam-chowder",
+                    price: "6.57"
                 ),
             ]
         ),

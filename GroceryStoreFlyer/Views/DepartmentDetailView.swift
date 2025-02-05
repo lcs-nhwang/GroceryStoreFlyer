@@ -14,6 +14,7 @@ struct DepartmentDetailView: View {
     var body: some View {
         List(providedDepartment.items) {currentFoodItem in
             Text(currentFoodItem.name)
+            Text("$\(currentFoodItem.price)")
         }
         .navigationTitle(providedDepartment.name)
       
