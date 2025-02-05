@@ -6,17 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C2D4D7582D53B17700687676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D4D7512D53B17700687676 /* Preview Assets.xcassets */; };
+		C2D4D7592D53B17700687676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D4D7532D53B17700687676 /* Assets.xcassets */; };
+		C2D4D75A2D53B17700687676 /* DepartmentListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4D7542D53B17700687676 /* DepartmentListsView.swift */; };
+		C2D4D75B2D53B17700687676 /* GroceryStoreFlyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4D7562D53B17700687676 /* GroceryStoreFlyerApp.swift */; };
+		C2D4D75F2D53B2E900687676 /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4D75E2D53B2E900687676 /* Flyer.swift */; };
+		C2D4D7612D53B42300687676 /* DepartmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4D7602D53B42300687676 /* DepartmentDetailView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C2D4D73F2D53B0B800687676 /* GroceryStoreFlyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryStoreFlyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D4D7512D53B17700687676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2D4D7532D53B17700687676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D4D7542D53B17700687676 /* DepartmentListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListsView.swift; sourceTree = "<group>"; };
+		C2D4D7552D53B17700687676 /* GroceryStoreFlyer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GroceryStoreFlyer.entitlements; sourceTree = "<group>"; };
+		C2D4D7562D53B17700687676 /* GroceryStoreFlyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreFlyerApp.swift; sourceTree = "<group>"; };
+		C2D4D75E2D53B2E900687676 /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
+		C2D4D7602D53B42300687676 /* DepartmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C2D4D7412D53B0B800687676 /* GroceryStoreFlyer */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GroceryStoreFlyer;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2D4D73C2D53B0B800687676 /* Frameworks */ = {
@@ -32,7 +40,7 @@
 		C2D4D7362D53B0B800687676 = {
 			isa = PBXGroup;
 			children = (
-				C2D4D7412D53B0B800687676 /* GroceryStoreFlyer */,
+				C2D4D7572D53B17700687676 /* GroceryStoreFlyer */,
 				C2D4D7402D53B0B800687676 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +51,44 @@
 				C2D4D73F2D53B0B800687676 /* GroceryStoreFlyer.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D4D7522D53B17700687676 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4D7512D53B17700687676 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2D4D7572D53B17700687676 /* GroceryStoreFlyer */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4D7562D53B17700687676 /* GroceryStoreFlyerApp.swift */,
+				C2D4D75D2D53B1C300687676 /* Models */,
+				C2D4D75C2D53B18F00687676 /* Views */,
+				C2D4D7522D53B17700687676 /* Preview Content */,
+				C2D4D7532D53B17700687676 /* Assets.xcassets */,
+				C2D4D7552D53B17700687676 /* GroceryStoreFlyer.entitlements */,
+			);
+			path = GroceryStoreFlyer;
+			sourceTree = "<group>";
+		};
+		C2D4D75C2D53B18F00687676 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4D7542D53B17700687676 /* DepartmentListsView.swift */,
+				C2D4D7602D53B42300687676 /* DepartmentDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2D4D75D2D53B1C300687676 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4D75E2D53B2E900687676 /* Flyer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +105,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C2D4D7412D53B0B800687676 /* GroceryStoreFlyer */,
 			);
 			name = GroceryStoreFlyer;
 			packageProductDependencies = (
@@ -109,6 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D4D7582D53B17700687676 /* Preview Assets.xcassets in Resources */,
+				C2D4D7592D53B17700687676 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D4D75A2D53B17700687676 /* DepartmentListsView.swift in Sources */,
+				C2D4D75B2D53B17700687676 /* GroceryStoreFlyerApp.swift in Sources */,
+				C2D4D75F2D53B2E900687676 /* Flyer.swift in Sources */,
+				C2D4D7612D53B42300687676 /* DepartmentDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +314,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.nicholashwang.GroceryStoreFlyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,8 +344,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.nicholashwang.GroceryStoreFlyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
