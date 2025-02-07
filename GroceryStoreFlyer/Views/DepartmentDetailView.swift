@@ -30,7 +30,7 @@ struct DepartmentDetailView: View {
 
 #Preview {
     NavigationStack {
-        DepartmentDetailView(providedDepartment: thisWeeksFlyer.departments[1])
+        DepartmentDetailView(providedDepartment: thisWeeksFlyer.departments[2])
     }
 }
     

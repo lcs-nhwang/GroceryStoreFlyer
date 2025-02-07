@@ -57,7 +57,23 @@ let thisWeeksFlyer = Flyer(
                 ),
             ]
         ),
-        
+        Department(
+            name: "Deli",
+            items: [
+                FoodItem(
+                    name: "Main Street Sliced Meats & Turkey Breast",
+                    image: "sliced-meats"
+                ),
+                FoodItem(
+                    name: "Garlic Sausage Link",
+                    image: "garlic-sausage"
+                ),
+                FoodItem(
+                    name: "Original Turkey Bites",
+                    image: "turkey-bites"
+                )
+            ]
+        )
         
     ]
 )
