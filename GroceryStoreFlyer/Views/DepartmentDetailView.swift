@@ -12,10 +12,17 @@ struct DepartmentDetailView: View {
     let providedDepartment: Department
     
     var body: some View {
-        List(providedDepartment.items) {currentFoodItem in
-            Text(currentFoodItem.name)
-            Text("$\(currentFoodItem.price)")
+        List(providedDepartment.items) { currentFoodItem in
+            VStack {
+                Text(currentFoodItem.name)
+                    .bold()
+                Image(currentFoodItem.image)
+                    .resizable()
+                    .scaledToFit()
+                
+            }
         }
+          
         .navigationTitle(providedDepartment.name)
       
     }
@@ -23,7 +30,7 @@ struct DepartmentDetailView: View {
 
 #Preview {
     NavigationStack {
-        DepartmentDetailView(providedDepartment: thisWeeksFlyer.departments[0])
+        DepartmentDetailView(providedDepartment: thisWeeksFlyer.departments[1])
     }
 }
     
